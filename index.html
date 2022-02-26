@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!--<link rel="stylesheet" href="C:\Users\hp\Desktop\Web\fontawesome\css\all.css">-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+		<title>Portfolio Site</title>
+	</head>
+	
+	<body>
+		<nav>
+			<h3 class="logo">Logo</h3>
+			<ul id="menu_node">
+				<li>
+					<a href="#home" onclick="returnBefore()">Home</a>
+					<span class="bars"></span>
+				</li>
+				<li>
+					<a href="#about" onclick="returnBefore()">About</a>
+					<span class="bars"></span>
+				</li>
+				<li>
+					<a href="#contact" onclick="returnBefore()">Contact</a>
+					<span class="bars"></span>
+				</li>
+			</ul>
+			<button class="menu-button" onclick="changeMenu(this)">
+				<i class="fas fa-bars"></i>
+				<i class="fas fa-times"></i>
+			</button>
+		</nav>
+		
+		<section id="home" class="home">
+			<div class="home-container">
+				<h1>I' m developer</h1>
+				<p>Start to type for a specific category inside the 
+					<br>search bar to "filter" the search options.
+				</p>
+				<div class="btn-container">
+					<button>Download CV</button>
+					<button>Donate</button>
+				</div>
+			</div>
+		</section>
+		
+		<section id="about" class="about">
+			<div class="about-container">
+				<h3>About Me</h3>
+				<p>
+					Start to type for a specific category inside the search bar to "filter" the search options.
+					Start to type for a specific category inside the search bar to "filter" the search options.
+					Start to type for a specific category inside the search bar to "filter" the search options.
+					Start to type for a specific category inside the search bar to "filter" the search options.
+				</p>
+			</div>
+			<div class="skill">
+				<div>
+					<h3>html</h3>
+					<span>90%</span>
+					<div class="bar bar1"></div>
+				</div>
+				<div>
+					<h3>css</h3>
+					<span>50%</span>
+					<div class="bar bar2"></div>
+				</div>
+				<div>
+					<h3>javascript</h3>
+					<span>80%</span>
+					<div class="bar bar3"></div>
+				</div>
+				<div>
+					<h3>python</h3>
+					<span>60%</span>
+					<div class="bar bar4"></div>
+				</div>
+			</div>
+		</section>
+		
+		<footer id="contact" class="contact">
+			<div class="social-media">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-github-alt"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-twitter"></i>
+			</div>
+			<p>@2022 Createt By Ogz</div>
+		</footer>
+		
+		<script src="app.js"></script>
+	</body>
+</html>
