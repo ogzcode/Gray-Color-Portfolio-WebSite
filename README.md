@@ -1,8 +1,9 @@
 # Örnek Portfolio Sitesi
 Html/Css ile kodladığım örnek site.
 
-<h1>Desktop</h1>
+### Masaüstü Ekran Görüntüsü
 <img src="screenshot/desktop.png">
-<h1>Mobile</h1>
+
+### Mobile Ekran Görüntüsü
 <img src="screenshot/mobile.png">
 
